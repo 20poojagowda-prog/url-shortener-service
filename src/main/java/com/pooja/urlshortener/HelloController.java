@@ -1,8 +1,8 @@
 @RestController
 public class HelloController {
 
-    @GetMapping("/hello")
+    @GetMapping("/test")
     public String hello() {
-        return "URL Shortener Service Running!";
+        return "Hello";
     }
 }
